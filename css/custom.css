@@ -20,6 +20,7 @@ div[class*="container"] {
 .clearfix {
 	clear: both;
 }
+.icons a{width: 100%; height: 100%; display: block;}
 .active a{color:hsl(192, 70%, 51%) ;}
 .active a::after{opacity: 1 !important;}
 h2 {
@@ -319,7 +320,7 @@ footer {
 	float: right;
 }
 .icons {
-	padding-inline-start: 60px;
+	padding-inline-start: 90px;
 	width: 350px;
 	margin-top: 30px;
 }
@@ -399,7 +400,7 @@ footer {
 		width: 275px;
 	}
 	.icons {
-		padding-inline-start: 50px;
+		padding-inline-start: 80px;
 	}
 	.qr {
 		margin: 20px 50px 0px;
@@ -447,7 +448,7 @@ footer {
 		margin-left: 0px;
 	}
 	.icons {
-		padding-inline-start: 5px;
+		padding-inline-start: 32.5px;
 	}
 	.qr {
 		width: 140px;
@@ -619,6 +620,7 @@ footer {
 	.featcontainer div:not(.button) {
 		width: 100%;
 	}
+	
 	.articontainer h2 {
 		font-size: 28px;
 		margin: 40px 0px 10px 10px;
